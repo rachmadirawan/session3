@@ -1,0 +1,112 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* awal header */
+header {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    
+}
+
+header .container {
+    margin: auto;
+    width: 1170px;
+}
+
+.header-logo {
+    float: left;
+    padding: 10px;
+}
+
+.header-logo a {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.header-login {
+    float:right;
+}
+
+.header-login a {
+    color: aliceblue;
+    display: block;
+    background-color: hsl(221, 44%, 41%, 0.5);
+    padding: 20px;
+}
+
+.header-login a:hover {
+    background-color: hsl(0, 0%, 0%);
+    transition: all .5s;
+}
+
+
+.top-wrapper .container {
+    color: white;
+    width: 1170px;
+    margin: auto;
+}
+
+.intro-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.intro-wrapper p {
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    padding: 17px 0 20px;
+}
+
+.btn-wrapper p {
+    padding: 10px 0px;
+}
+
+.btn {
+    color: white;
+    padding: 12px 24px;
+    display:  inline-block;
+    border-radius: 5px;
+    opacity: .3;
+    transition: all .5s;
+}
+
+.btn:hover {
+    opacity: 1;
+    transition: all .5s;
+}
+
+.email {
+    background-color: #239b76;
+}
+
+.facebook {
+    margin-right: 10px;
+    background-color: #3b5998;
+}
+
+.facebook span, .twitter span {
+    margin-right: 5px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
